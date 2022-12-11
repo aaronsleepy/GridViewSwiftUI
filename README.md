@@ -7,6 +7,7 @@ AppleFramework 예제 - SwiftUI Grid View
 
 ## Branch
 * part7/swiftui-grid
+* part7/swiftui-modal
 
 
 ## 학습자료
