@@ -1,6 +1,9 @@
 # GridViewSwiftUI
 AppleFramework 예제 - SwiftUI Grid View
 
+![image](https://user-images.githubusercontent.com/89061309/206893385-4c2ded7f-1599-41c3-a7b0-f03f20220581.png)
+
+
 
 ## Branch
 * part7/swiftui-grid
