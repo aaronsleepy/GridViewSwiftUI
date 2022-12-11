@@ -19,13 +19,16 @@ struct FrameworkListView: View {
     ]
     
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: layout) {
-                ForEach(list) { item in
-                    FrameworkCell(framework: item)
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: layout) {
+                    ForEach(list) { item in
+                        FrameworkCell(framework: item)
+                    }
                 }
+                .padding([.top, .leading, .trailing], 16.0)
             }
-            .padding([.top, .leading, .trailing], 16.0)
+            .navigationTitle("☀️ Apple Framework")
         }
     }
 }
