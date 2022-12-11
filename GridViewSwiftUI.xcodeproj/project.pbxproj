@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9393F7B12944C631001664CA /* GridViewSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393F7B02944C631001664CA /* GridViewSwiftUIApp.swift */; };
-		9393F7B32944C631001664CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393F7B22944C631001664CA /* ContentView.swift */; };
+		9393F7B32944C631001664CA /* FrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393F7B22944C631001664CA /* FrameworkListView.swift */; };
 		9393F7B52944C632001664CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9393F7B42944C632001664CA /* Assets.xcassets */; };
 		9393F7B82944C632001664CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9393F7B72944C632001664CA /* Preview Assets.xcassets */; };
 		9393F7C22944C632001664CA /* GridViewSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393F7C12944C632001664CA /* GridViewSwiftUITests.swift */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		9393F7AD2944C631001664CA /* GridViewSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridViewSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9393F7B02944C631001664CA /* GridViewSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewSwiftUIApp.swift; sourceTree = "<group>"; };
-		9393F7B22944C631001664CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9393F7B22944C631001664CA /* FrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListView.swift; sourceTree = "<group>"; };
 		9393F7B42944C632001664CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9393F7B72944C632001664CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9393F7BD2944C632001664CA /* GridViewSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridViewSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				9393F7B02944C631001664CA /* GridViewSwiftUIApp.swift */,
-				9393F7B22944C631001664CA /* ContentView.swift */,
+				9393F7B22944C631001664CA /* FrameworkListView.swift */,
 				9393F7DC29457A9A001664CA /* Model */,
 				9393F7B42944C632001664CA /* Assets.xcassets */,
 				9393F7B62944C632001664CA /* Preview Content */,
@@ -269,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9393F7DB29457A82001664CA /* AppleFramework.swift in Sources */,
-				9393F7B32944C631001664CA /* ContentView.swift in Sources */,
+				9393F7B32944C631001664CA /* FrameworkListView.swift in Sources */,
 				9393F7B12944C631001664CA /* GridViewSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
