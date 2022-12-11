@@ -15,6 +15,7 @@
 		9393F7CC2944C632001664CA /* GridViewSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393F7CB2944C632001664CA /* GridViewSwiftUIUITests.swift */; };
 		9393F7CE2944C632001664CA /* GridViewSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393F7CD2944C632001664CA /* GridViewSwiftUIUITestsLaunchTests.swift */; };
 		9393F7DB29457A82001664CA /* AppleFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393F7DA29457A82001664CA /* AppleFramework.swift */; };
+		9393F7DE29457B08001664CA /* FrameworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393F7DD29457B08001664CA /* FrameworkCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		9393F7CB2944C632001664CA /* GridViewSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewSwiftUIUITests.swift; sourceTree = "<group>"; };
 		9393F7CD2944C632001664CA /* GridViewSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9393F7DA29457A82001664CA /* AppleFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFramework.swift; sourceTree = "<group>"; };
+		9393F7DD29457B08001664CA /* FrameworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				9393F7B02944C631001664CA /* GridViewSwiftUIApp.swift */,
 				9393F7B22944C631001664CA /* FrameworkListView.swift */,
+				9393F7DD29457B08001664CA /* FrameworkCell.swift */,
 				9393F7DC29457A9A001664CA /* Model */,
 				9393F7B42944C632001664CA /* Assets.xcassets */,
 				9393F7B62944C632001664CA /* Preview Content */,
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9393F7DE29457B08001664CA /* FrameworkCell.swift in Sources */,
 				9393F7DB29457A82001664CA /* AppleFramework.swift in Sources */,
 				9393F7B32944C631001664CA /* FrameworkListView.swift in Sources */,
 				9393F7B12944C631001664CA /* GridViewSwiftUIApp.swift in Sources */,
