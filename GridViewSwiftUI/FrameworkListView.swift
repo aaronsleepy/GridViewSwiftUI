@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct FrameworkListView: View {
+    // Data
+    @State var list: [AppleFramework] = AppleFramework.list
+    
+    // Layout
+    let layout: [GridItem] = [
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+    ]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ScrollView {
+            LazyVGrid(columns: layout) {
+                ForEach(list) { item in
+                    FrameworkCell(framework: item)
+                }
+            }
+            .padding([.top, .leading, .trailing], 16.0)
         }
-        .padding()
     }
 }
 
