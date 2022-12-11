@@ -16,6 +16,12 @@ struct FrameworkListView: View {
         GridItem(.flexible()),
         GridItem(.flexible()),
         GridItem(.flexible()),
+        
+//        GridItem(.fixed(70)),
+//        GridItem(.fixed(70)),
+//        GridItem(.flexible()),
+        
+//        GridItem(.adaptive(minimum: 80))
     ]
     
     var body: some View {
